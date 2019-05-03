@@ -15,6 +15,9 @@
 		1D37469722781978000ACBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D37469522781978000ACBAB /* LaunchScreen.storyboard */; };
 		1D3746A3227AC39B000ACBAB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746A2227AC39B000ACBAB /* ScoreViewController.swift */; };
 		1D3746A7227C0F21000ACBAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746A6227C0F21000ACBAB /* HomeViewController.swift */; };
+		1D3746A9227C1693000ACBAB /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746A8227C1693000ACBAB /* GameViewController.swift */; };
+		1D3746AB227C18C3000ACBAB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746AA227C18C3000ACBAB /* SettingViewController.swift */; };
+		1D3746AD227C213D000ACBAB /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746AC227C213D000ACBAB /* SettingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		1D37469822781978000ACBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3746A2227AC39B000ACBAB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
 		1D3746A6227C0F21000ACBAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1D3746A8227C1693000ACBAB /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		1D3746AA227C18C3000ACBAB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		1D3746AC227C213D000ACBAB /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +69,10 @@
 				1D37468922781978000ACBAB /* AppDelegate.swift */,
 				1D37468B22781978000ACBAB /* ViewController.swift */,
 				1D3746A6227C0F21000ACBAB /* HomeViewController.swift */,
+				1D3746A8227C1693000ACBAB /* GameViewController.swift */,
 				1D3746A2227AC39B000ACBAB /* ScoreViewController.swift */,
+				1D3746AA227C18C3000ACBAB /* SettingViewController.swift */,
+				1D3746AC227C213D000ACBAB /* SettingTableViewController.swift */,
 				1D37468D22781978000ACBAB /* Main.storyboard */,
 				1D37469322781978000ACBAB /* Assets.xcassets */,
 				1D37469522781978000ACBAB /* LaunchScreen.storyboard */,
@@ -144,10 +153,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3746AD227C213D000ACBAB /* SettingTableViewController.swift in Sources */,
 				1D3746A7227C0F21000ACBAB /* HomeViewController.swift in Sources */,
 				1D37468C22781978000ACBAB /* ViewController.swift in Sources */,
 				1D37468A22781978000ACBAB /* AppDelegate.swift in Sources */,
 				1D37469222781978000ACBAB /* BubblePop.xcdatamodeld in Sources */,
+				1D3746A9227C1693000ACBAB /* GameViewController.swift in Sources */,
+				1D3746AB227C18C3000ACBAB /* SettingViewController.swift in Sources */,
 				1D3746A3227AC39B000ACBAB /* ScoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
