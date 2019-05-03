@@ -27,9 +27,24 @@
             <point key="canvasLocation" x="-117" y="840"/>
         </scene>
         <!--View Controller-->
+        <scene sceneID="c6K-93-o2f">
+            <objects>
+                <viewController id="1DF-rN-tPz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BGZ-nX-OHE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Rvs-rH-bf4"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vpk-Np-AJg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="840"/>
+        </scene>
+        <!--Home View Controller-->
         <scene sceneID="hsa-8O-B95">
             <objects>
-                <viewController id="NnK-Yj-JxD" sceneMemberID="viewController">
+                <viewController id="NnK-Yj-JxD" customClass="HomeViewController" customModule="BubblePop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lxD-5d-tLy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -50,6 +65,22 @@
                                     <segue destination="MdY-tR-42X" kind="show" id="3e4-5K-SuL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JI-ag-qKy">
+                                <rect key="frame" x="178" y="422" width="59" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <state key="normal" title="Play"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter name to play" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BOQ-Rg-IV6">
+                                <rect key="frame" x="94" y="351" width="226" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="nameChanged:" destination="NnK-Yj-JxD" eventType="editingChanged" id="PlT-7W-l1u"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -63,6 +94,10 @@
                         <viewLayoutGuide key="safeArea" id="U6e-Sa-RmJ"/>
                     </view>
                     <navigationItem key="navigationItem" id="6KX-Dr-k66"/>
+                    <connections>
+                        <outlet property="play" destination="7JI-ag-qKy" id="gnG-BC-xKp"/>
+                        <outlet property="userName" destination="BOQ-Rg-IV6" id="jQb-uN-Ke8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W9h-Ys-qNG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -146,7 +181,7 @@
                     </tableView>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="773.91304347826087" y="1625.5434782608697"/>
+            <point key="canvasLocation" x="-117" y="1627"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="MAX-vN-iXF">
@@ -161,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yCI-XH-3oB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1703" y="840"/>
+            <point key="canvasLocation" x="774" y="1626"/>
         </scene>
     </scenes>
 </document>

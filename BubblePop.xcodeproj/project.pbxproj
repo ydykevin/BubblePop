@@ -14,6 +14,7 @@
 		1D37469422781978000ACBAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D37469322781978000ACBAB /* Assets.xcassets */; };
 		1D37469722781978000ACBAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D37469522781978000ACBAB /* LaunchScreen.storyboard */; };
 		1D3746A3227AC39B000ACBAB /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746A2227AC39B000ACBAB /* ScoreViewController.swift */; };
+		1D3746A7227C0F21000ACBAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3746A6227C0F21000ACBAB /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		1D37469622781978000ACBAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D37469822781978000ACBAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D3746A2227AC39B000ACBAB /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		1D3746A6227C0F21000ACBAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				1D37468922781978000ACBAB /* AppDelegate.swift */,
 				1D37468B22781978000ACBAB /* ViewController.swift */,
+				1D3746A6227C0F21000ACBAB /* HomeViewController.swift */,
 				1D3746A2227AC39B000ACBAB /* ScoreViewController.swift */,
 				1D37468D22781978000ACBAB /* Main.storyboard */,
 				1D37469322781978000ACBAB /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3746A7227C0F21000ACBAB /* HomeViewController.swift in Sources */,
 				1D37468C22781978000ACBAB /* ViewController.swift in Sources */,
 				1D37468A22781978000ACBAB /* AppDelegate.swift in Sources */,
 				1D37469222781978000ACBAB /* BubblePop.xcdatamodeld in Sources */,
